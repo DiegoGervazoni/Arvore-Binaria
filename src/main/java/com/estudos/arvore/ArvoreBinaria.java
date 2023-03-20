@@ -89,11 +89,11 @@ public class ArvoreBinaria<T extends Comparable<T>> {
                 } else if (atual.getNoEsq() == null) {
                     this.raiz = atual.getNoDir();
                 } else {
-                    for(temp = atual, filho = atual.getNoEsq(); //inicialização do For
-                        filho.getNoDir() != null;               //condição de parada
-                        temp = filho, filho = filho.getNoEsq()
-                    ){
-                        if(filho != atual.getNoEsq()){ //parte do metodo remove que vai rearranjando os nós no lugar do nó pai
+                    for (temp = atual, filho = atual.getNoEsq(); //inicialização do For
+                         filho.getNoDir() != null;               //condição de parada
+                         temp = filho, filho = filho.getNoEsq()
+                    ) {
+                        if (filho != atual.getNoEsq()) { //parte do metodo remove que vai rearranjando os nós no lugar do nó pai
                             temp.setNoDir(filho.getNoEsq());
                             filho.setNoEsq(raiz.getNoEsq());
                         }
@@ -102,7 +102,11 @@ public class ArvoreBinaria<T extends Comparable<T>> {
                     raiz = filho;
                 }
             } else if (atual.getNoDir() == null) {
-
+                    if(pai.getNoEsq() == atual){
+                        pai.setNoEsq(atual.getNoEsq());
+                    }else{
+                        pai.setNoDir(atual.getNoEsq());
+                    }
             } else if (atual.getNoEsq() == null) {
 
             } else {
