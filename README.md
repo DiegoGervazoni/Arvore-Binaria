@@ -8,3 +8,4 @@ Conceito de árvore binaria em Java
 - Implementação do método remover parte 3 (Else if no getNoDir atual);
 - Implementação do método remover parte 4 (Else if no getNoEsq atual);
 - Implementação do método remover parte 5 (Inclusão de laço for no Else);
+- Utilização da classe ArvoreBinaria (Criação das classes ObjArvore, Obj e Main).
