@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f9374f1-c608-44ca-bcb9-dbf5168a4fb8" name="Changes" comment="Implementacao do metodo de exibicao">
+    <list default="true" id="1f9374f1-c608-44ca-bcb9-dbf5168a4fb8" name="Changes" comment="Implementacao do metodo remover parte 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/estudos/arvore/ArvoreBinaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/estudos/arvore/ArvoreBinaria.java" afterDir="false" />
     </list>
@@ -77,13 +77,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679323314338</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implementacao do metodo remover parte 1">
+      <created>1679324148507</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679324148507</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Implementacao do metodo inserir" />
     <MESSAGE value="Implementacao do metodo de exibicao" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementacao do metodo de exibicao" />
+    <MESSAGE value="Implementacao do metodo remover parte 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementacao do metodo remover parte 1" />
   </component>
 </project>
