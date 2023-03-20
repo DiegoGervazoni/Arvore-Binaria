@@ -4,3 +4,4 @@ Conceito de árvore binaria em Java
 - Implementação do método inserir;
 - Implementação dos métodos de exibição (InOrdem, PosOrdem, PreOrdem);
 - Implementação do método remover parte 1 (Try e Catch);
+- Implementação do método remover parte 2 (Criação do bloco de if para o Nó Pai);
